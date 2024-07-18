@@ -44,7 +44,7 @@ void loop() {
     Serial.println(asString);
 //    String des="hello";
     int al=2;
-    String urlFinal = "https://script.google.com/macros/s/"+GOOGLE_SCRIPT_ID+"/exec?"+"date=" + asString + "&sensor=" + String(count)+"&val="+al;
+    String urlFinal = "https://script.google.com/macros/s/"+GOOGLE_SCRIPT_ID+"/exec?"+"date=" + asString + "&sensor=" + String(count)+"&val="+al+"&new_value="+"New Value";
     Serial.print("POST data to spreadsheet:");
     Serial.println(urlFinal);
     HTTPClient http;
