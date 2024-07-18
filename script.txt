@@ -1,0 +1,10 @@
+var sheet_id = "1CtCN7hQ3HgQwW1zP5-SXeu8RrZoH1gTLUTBYNlswo3M";
+var sheet_name = "ESP_DATA";
+function doGet(e){
+var ss = SpreadsheetApp.openById(sheet_id);
+var sheet = ss.getSheetByName(sheet_name);
+var date = String(e.parameter.date);
+var sensor = Number(e.parameter.sensor);
+var val = Number(e.parameter.val);
+sheet.appendRow([date,sensor,val]);
+}
