@@ -1,3 +1,6 @@
+Please Refere This Page : https://randomnerdtutorials.com/esp32-datalogging-google-sheets/
+This Page Help You For Google Sheets Prepartion 
+
 Step 1: Setting Up Google Sheets
 Create a new Google Sheet:
 
