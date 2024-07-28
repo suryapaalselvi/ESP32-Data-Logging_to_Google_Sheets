@@ -1,0 +1,6 @@
+function doGet(e) {
+  var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+  var value = e.parameter.value;
+  sheet.appendRow([new Date(), value]);
+  return ContentService.createTextOutput("Success");
+}
