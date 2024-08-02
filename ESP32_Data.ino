@@ -3,11 +3,11 @@
 #include <ArduinoJson.h>
 
 // Replace with your network credentials
-const char* ssid = "iPhone";
-const char* password = "doyourbest.";
+const char* ssid = "Your_SSID";
+const char* password = "Your_Password";
 
 // Google Sheets API credentials
-const char* google_script_id = "AKfycbxZBuJBt0KJQipDC2dBL13XyreeRAQ11uCT3T6nWDv1ZJlcATrR1-hvwH2_yeEQ6u-ttA"; // This will be created in step 4
+const char* google_script_id = "-----------Paste Your Deploye ID -----------------"; // This will be created in step 4
 
 
 // Analog pin
